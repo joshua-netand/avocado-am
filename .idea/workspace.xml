@@ -3,8 +3,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e2e17d3-1db3-4f69-8803-096530efcb33" name="Default Changelist" comment="" />
+    <list default="true" id="7e2e17d3-1db3-4f69-8803-096530efcb33" name="Default Changelist" comment="avocado-commons 추가">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/netand/avocado/commons/exception/AvocadoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/exception/AvocadoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/netand/avocado/commons/exception/AvocadoExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/exception/AvocadoExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/netand/avocado/commons/model/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/Range.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/netand/avocado/commons/model/ResultStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/ResultStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/netand/avocado/commons/model/ResultTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/ResultTypes.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,13 +36,29 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
-      <ProjectState />
+      <ProjectState>
+        <dataType path="$PROJECT_DIR$/commons">
+          <ModuleState>
+            <id value="com.intellij.externalSystem.JavaModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ContentRootData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleSdkData" />
+            <id value="com.intellij.openapi.externalSystem.model.task.TaskData" />
+            <id value="org.jetbrains.idea.gradle.ext.profiler.model.JavaTaskData" />
+            <id value="org.jetbrains.plugins.gradle.model.GradleExtensions" />
+            <id value="org.jetbrains.plugins.gradle.model.data.BuildScriptClasspathData" />
+          </ModuleState>
+        </dataType>
+      </ProjectState>
     </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/commons">
           <activation />
         </task>
         <projects_view>
@@ -33,6 +73,12 @@
                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="avocado-commons" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -40,7 +86,15 @@
       </state>
     </system>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -65,18 +119,57 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.avocado-commons [build]">
+    <configuration name="avocado-commons [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
+    <configuration name="avocado-commons:commons [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/commons" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.avocado-commons [build]" />
+        <item itemvalue="Gradle.avocado-commons:commons [build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,18 +180,78 @@
       <option name="presentableId" value="Default" />
       <updated>1620712627019</updated>
       <workItem from="1620712628898" duration="15000" />
-      <workItem from="1620712663115" duration="580000" />
+      <workItem from="1620712663115" duration="744000" />
+      <workItem from="1620714058196" duration="178000" />
+      <workItem from="1620714685507" duration="25000" />
+      <workItem from="1620718427804" duration="165000" />
+      <workItem from="1620787237551" duration="360000" />
+      <workItem from="1620787623894" duration="145000" />
     </task>
+    <task id="LOCAL-00001" summary="avocado-commons 추가">
+      <created>1620713357107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620713357107</updated>
+    </task>
+    <task id="LOCAL-00002" summary="avocado-commons 추가">
+      <created>1620713376451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620713376451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="avocado-commons 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="avocado-commons 추가" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="282" key="SettingsEditor" timestamp="1620713044425">
+    <state width="2518" height="386" key="GridCell.Tab.0.bottom" timestamp="1620787768193">
       <screen x="0" y="25" width="2560" height="1357" />
     </state>
-    <state x="768" y="282" key="SettingsEditor/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620713044425" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.-46.1792.1120@2560.-46.1792.1120" timestamp="1620718591889" />
+    <state width="2518" height="386" key="GridCell.Tab.0.bottom/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620787768193" />
+    <state width="2518" height="386" key="GridCell.Tab.0.center" timestamp="1620787768192">
+      <screen x="0" y="25" width="2560" height="1357" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.2560.1440/2560.-46.1792.1120@2560.-46.1792.1120" timestamp="1620718591886" />
+    <state width="2518" height="386" key="GridCell.Tab.0.center/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620787768192" />
+    <state width="2518" height="386" key="GridCell.Tab.0.left" timestamp="1620787768192">
+      <screen x="0" y="25" width="2560" height="1357" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.2560.1440/2560.-46.1792.1120@2560.-46.1792.1120" timestamp="1620718591885" />
+    <state width="2518" height="386" key="GridCell.Tab.0.left/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620787768192" />
+    <state width="2518" height="386" key="GridCell.Tab.0.right" timestamp="1620787768192">
+      <screen x="0" y="25" width="2560" height="1357" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.2560.1440/2560.-46.1792.1120@2560.-46.1792.1120" timestamp="1620718591888" />
+    <state width="2518" height="386" key="GridCell.Tab.0.right/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620787768192" />
+    <state x="768" y="282" key="SettingsEditor" timestamp="1620787679422">
+      <screen x="0" y="25" width="2560" height="1357" />
+    </state>
+    <state x="768" y="282" key="SettingsEditor/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620787679422" />
+    <state x="880" y="440" key="Vcs.Push.Dialog.v2" timestamp="1620713379512">
+      <screen x="0" y="25" width="2560" height="1357" />
+    </state>
+    <state x="880" y="440" key="Vcs.Push.Dialog.v2/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620713379512" />
     <state x="686" y="313" key="new project wizard" timestamp="1620713038393">
       <screen x="0" y="25" width="2560" height="1357" />
     </state>
