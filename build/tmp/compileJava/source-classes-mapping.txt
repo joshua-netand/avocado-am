@@ -1,3 +1,5 @@
+com/netand/avocado/commons/enums/ApplicationCodes.java
+ com.netand.avocado.commons.enums.ApplicationCodes
 com/netand/avocado/commons/logging/MDCKeys.java
  com.netand.avocado.commons.logging.MDCKeys
 com/netand/avocado/commons/model/ResultTypes.java
@@ -14,6 +16,8 @@ com/netand/avocado/commons/model/converter/jpa/ContextEventTypeConverter.java
 com/netand/avocado/commons/model/ExceptionResponse.java
  com.netand.avocado.commons.model.ExceptionResponse
  com.netand.avocado.commons.model.ExceptionResponse$ExceptionResponseBuilder
+com/netand/avocado/commons/Consts.java
+ com.netand.avocado.commons.Consts
 com/netand/avocado/commons/model/ActorTag.java
  com.netand.avocado.commons.model.ActorTag
  com.netand.avocado.commons.model.ActorTag$ActorTagBuilder
