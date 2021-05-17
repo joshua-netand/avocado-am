@@ -13,7 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e2e17d3-1db3-4f69-8803-096530efcb33" name="Default Changelist" comment="commons 모듈 제거" />
+    <list default="true" id="7e2e17d3-1db3-4f69-8803-096530efcb33" name="Default Changelist" comment="commons 모듈 제거">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/Consts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/enums/ApplicationCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +73,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -92,22 +100,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3505747" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.netand.avocado.commons.enums" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +162,7 @@
       <updated>1620712627019</updated>
       <workItem from="1620712628898" duration="15000" />
       <workItem from="1620712663115" duration="580000" />
+      <workItem from="1621234451526" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="commons 모듈 제거">
       <created>1620788199584</created>
@@ -202,10 +218,10 @@
       <screen x="0" y="25" width="2560" height="1357" />
     </state>
     <state x="768" y="282" key="SettingsEditor/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620713044425" />
-    <state x="880" y="440" key="Vcs.Push.Dialog.v2" timestamp="1620788217173">
+    <state x="880" y="440" key="Vcs.Push.Dialog.v2" timestamp="1621234508270">
       <screen x="0" y="25" width="2560" height="1357" />
     </state>
-    <state x="880" y="440" key="Vcs.Push.Dialog.v2/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1620788217173" />
+    <state x="880" y="440" key="Vcs.Push.Dialog.v2/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1621234508270" />
     <state x="1038" y="420" key="git4idea.branch.GitSmartOperationDialog" timestamp="1620788040312">
       <screen x="0" y="25" width="2560" height="1357" />
     </state>
