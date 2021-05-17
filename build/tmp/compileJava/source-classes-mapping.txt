@@ -1,13 +1,33 @@
+com/netand/avocado/commons/logging/MDCKeys.java
+ com.netand.avocado.commons.logging.MDCKeys
 com/netand/avocado/commons/model/ResultTypes.java
  com.netand.avocado.commons.model.ResultTypes
-com/netand/avocado/commons/model/Consts.java
- com.netand.avocado.commons.model.Consts
-com/netand/avocado/commons/exception/AvocadoException.java
- com.netand.avocado.commons.exception.AvocadoException
-com/netand/avocado/commons/model/ResultStatus.java
- com.netand.avocado.commons.model.ResultStatus
+com/netand/avocado/commons/databind/jpa/ListConverter.java
+ com.netand.avocado.commons.databind.jpa.ListConverter
+com/netand/avocado/commons/databind/jackson/ZonedDateTimeDeserializer.java
+ com.netand.avocado.commons.databind.jackson.ZonedDateTimeDeserializer
+ com.netand.avocado.commons.databind.jackson.ZonedDateTimeDeserializer$Timestamp
 com/netand/avocado/commons/exception/AvocadoExceptions.java
  com.netand.avocado.commons.exception.AvocadoExceptions
+com/netand/avocado/commons/model/converter/jpa/ContextEventTypeConverter.java
+ com.netand.avocado.commons.model.converter.jpa.ContextEventTypeConverter
+com/netand/avocado/commons/model/ExceptionResponse.java
+ com.netand.avocado.commons.model.ExceptionResponse
+ com.netand.avocado.commons.model.ExceptionResponse$ExceptionResponseBuilder
+com/netand/avocado/commons/model/ActorTag.java
+ com.netand.avocado.commons.model.ActorTag
+ com.netand.avocado.commons.model.ActorTag$ActorTagBuilder
+com/netand/avocado/commons/exception/AvocadoException.java
+ com.netand.avocado.commons.exception.AvocadoException
+com/netand/avocado/commons/model/ContextEventTypes.java
+ com.netand.avocado.commons.model.ContextEventTypes
+com/netand/avocado/commons/model/PartialRequestOption.java
+ com.netand.avocado.commons.model.PartialRequestOption
+ com.netand.avocado.commons.model.PartialRequestOption$PartialRequestOptionBuilder
+com/netand/avocado/commons/model/ResultStatus.java
+ com.netand.avocado.commons.model.ResultStatus
+com/netand/avocado/commons/databind/jpa/MapConverter.java
+ com.netand.avocado.commons.databind.jpa.MapConverter
 com/netand/avocado/commons/model/Range.java
  com.netand.avocado.commons.model.Range
  com.netand.avocado.commons.model.Range$RangeBuilder
