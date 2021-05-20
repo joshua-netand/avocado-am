@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/databind/jackson/ZonedDateTimeDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/databind/jpa/ListConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/databind/jpa/MapConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/logging/MDCKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/ActorTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/PartialRequestOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/converter/jpa/ContextEventTypeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,8 +167,16 @@
       <updated>1620712627019</updated>
       <workItem from="1620712628898" duration="15000" />
       <workItem from="1620712663115" duration="580000" />
-      <workItem from="1621227574713" duration="3990000" />
+      <workItem from="1621227574713" duration="4609000" />
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;.&quot;&#10;&#10;This reverts commit 96928fce75d8d289243522c415f1b43f5a42f11f.&#10;&#10;# Conflicts:&#10;#&#9;.gradle/6.5/executionHistory/executionHistory.bin&#10;#&#9;.gradle/6.5/executionHistory/executionHistory.lock&#10;#&#9;.gradle/6.5/fileHashes/fileHashes.bin&#10;#&#9;.gradle/6.5/fileHashes/fileHashes.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.idea/workspace.xml">
+      <created>1621237788260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621237788260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
