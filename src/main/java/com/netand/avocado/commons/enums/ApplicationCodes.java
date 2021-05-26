@@ -17,6 +17,7 @@ public enum ApplicationCodes {
 	PAM             ( "pam",                "Privileged Access Management" ),
 	ADMIN           ( "admin",              "Administrator Server" ),
 	BASTION         ( "bastion",            "Bastion" ),
+	API_GW          ( "api-gw",             "API Gateway" ),
 	;
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
