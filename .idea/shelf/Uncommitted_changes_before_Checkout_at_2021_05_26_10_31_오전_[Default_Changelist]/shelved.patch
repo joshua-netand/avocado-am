@@ -1,0 +1,159 @@
+Index: .idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54___Default_Changelist_.xml
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54___Default_Changelist_.xml	(revision 71b99248ee340a2038055483d6653c878855fef2)
++++ .idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54___Default_Changelist_.xml	(revision 71b99248ee340a2038055483d6653c878855fef2)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Merge_at_2021_05_12_11_54_오전_[Default_Changelist]" date="1620788101737" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54_오전_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Merge at 2021/05/12 11:54 오전 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54_오전_[Default_Changelist]/shelved.patch
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54_오전_[Default_Changelist]/shelved.patch	(revision 71b99248ee340a2038055483d6653c878855fef2)
++++ .idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54_오전_[Default_Changelist]/shelved.patch	(revision 71b99248ee340a2038055483d6653c878855fef2)
+@@ -1,80 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"7e2e17d3-1db3-4f69-8803-096530efcb33\" name=\"Default Changelist\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"avocado-commons\" type=\"f1a62948:ProjectNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"avocado-commons\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1sNUczM3vswwqexhWr7oUUnvDKG\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.3505747\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"configurable.group.language\" />\n    <property name=\"show.unlinked.gradle.project.popup\" value=\"true\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"ArquillianJUnit\" factoryName=\"\" nameIsGenerated=\"true\">\n      <option name=\"arquillianRunConfiguration\">\n        <value>\n          <option name=\"containerStateName\" value=\"\" />\n        </value>\n      </option>\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"7e2e17d3-1db3-4f69-8803-096530efcb33\" name=\"Default Changelist\" comment=\"\" />\n      <created>1620712627019</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1620712627019</updated>\n      <workItem from=\"1620712628898\" duration=\"15000\" />\n      <workItem from=\"1620712663115\" duration=\"580000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"768\" y=\"282\" key=\"SettingsEditor\" timestamp=\"1620713044425\">\n      <screen x=\"0\" y=\"25\" width=\"2560\" height=\"1357\" />\n    </state>\n    <state x=\"768\" y=\"282\" key=\"SettingsEditor/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357\" timestamp=\"1620713044425\" />\n    <state x=\"686\" y=\"313\" key=\"new project wizard\" timestamp=\"1620713038393\">\n      <screen x=\"0\" y=\"25\" width=\"2560\" height=\"1357\" />\n    </state>\n    <state x=\"686\" y=\"313\" key=\"new project wizard/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357\" timestamp=\"1620713038393\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- .idea/workspace.xml	(revision 3f231012d6ba1f30a65435437fe974006926caf3)
+-+++ .idea/workspace.xml	(date 1620788013865)
+-@@ -3,6 +3,15 @@
+-   <component name="AutoImportSettings">
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-+  <component name="BranchesTreeState">
+-+    <expand>
+-+      <path>
+-+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-+      </path>
+-+    </expand>
+-+    <select />
+-+  </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="7e2e17d3-1db3-4f69-8803-096530efcb33" name="Default Changelist" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-@@ -33,6 +42,12 @@
+-                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
+-                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+-               </path>
+-+              <path>
+-+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+-+                <item name="avocado-commons" type="f1a62948:ProjectNode" />
+-+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+-+                <item name="build" type="c8890929:TasksNode$1" />
+-+              </path>
+-             </expand>
+-             <select />
+-           </tree_state>
+-@@ -41,6 +56,11 @@
+-     </system>
+-   </component>
+-   <component name="Git.Settings">
+-+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-+      <map>
+-+        <entry key="$PROJECT_DIR$" value="feature/set-project" />
+-+      </map>
+-+    </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+-   <component name="MavenImportPreferences">
+-@@ -65,19 +85,6 @@
+-     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+-     <property name="show.unlinked.gradle.project.popup" value="true" />
+-   </component>
+--  <component name="RunManager">
+--    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+--      <option name="arquillianRunConfiguration">
+--        <value>
+--          <option name="containerStateName" value="" />
+--        </value>
+--      </option>
+--      <option name="TEST_OBJECT" value="class" />
+--      <method v="2">
+--        <option name="Make" enabled="true" />
+--      </method>
+--    </configuration>
+--  </component>
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+-@@ -93,6 +100,9 @@
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-     <option name="version" value="3" />
+-+  </component>
+-+  <component name="Vcs.Log.Tabs.Properties">
+-+    <option name="oldMeFiltersMigrated" value="true" />
+-   </component>
+-   <component name="WindowStateProjectService">
+-     <state x="768" y="282" key="SettingsEditor" timestamp="1620713044425">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"188efdf4-b71b-42c4-b8bb-37e93c05a571\" name=\"Default Changelist\" comment=\"out 폴더 제거\">\n      <change beforePath=\"$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"avocado-commons\" type=\"f1a62948:ProjectNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"avocado-commons\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"avocado-commons\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n                <item name=\"build\" type=\"c8890929:TasksNode$1\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"Git.Pull.Settings\">\n    <option name=\"BRANCH\" value=\"master\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1sNUczM3vswwqexhWr7oUUnvDKG\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/entity\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/src/main/java/com/netand/avocado/commons\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.3505747\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"configurable.group.language\" />\n    <property name=\"show.unlinked.gradle.project.popup\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/entity\" />\n      <recent name=\"$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model\" />\n      <recent name=\"$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/databind\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"com.netand.avocado.commons.logging\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Gradle.avocado-commons [build]\">\n    <configuration default=\"true\" type=\"ArquillianTestNG\" factoryName=\"\" nameIsGenerated=\"true\">\n      <option name=\"arquillianRunConfiguration\">\n        <value>\n          <option name=\"containerStateName\" value=\"\" />\n        </value>\n      </option>\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"avocado-commons [build]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"build\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"avocado-commons [clean]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"clean\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Gradle.avocado-commons [build]\" />\n        <item itemvalue=\"Gradle.avocado-commons [clean]\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"188efdf4-b71b-42c4-b8bb-37e93c05a571\" name=\"Default Changelist\" comment=\"\" />\n      <created>1620712627019</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1620712627019</updated>\n      <workItem from=\"1620712628898\" duration=\"15000\" />\n      <workItem from=\"1620712663115\" duration=\"580000\" />\n      <workItem from=\"1621227574713\" duration=\"3990000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"환경 파일...\">\n      <created>1621241848126</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1621241848126</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"out 폴더 제거\">\n      <created>1621242040713</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1621242040713</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"1\">\n          <value>\n            <State />\n          </value>\n        </entry>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Revert &quot;.&quot;&#10;&#10;This reverts commit 96928fce75d8d289243522c415f1b43f5a42f11f.&#10;&#10;# Conflicts:&#10;#&#9;.gradle/6.5/executionHistory/executionHistory.bin&#10;#&#9;.gradle/6.5/executionHistory/executionHistory.lock&#10;#&#9;.gradle/6.5/fileHashes/fileHashes.bin&#10;#&#9;.gradle/6.5/fileHashes/fileHashes.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.idea/workspace.xml\" />\n    <MESSAGE value=\"환경 파일...\" />\n    <MESSAGE value=\"out 폴더 제거\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"out 폴더 제거\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state width=\"2518\" height=\"384\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1621242097433\">\n      <screen x=\"0\" y=\"25\" width=\"2560\" height=\"1357\" />\n    </state>\n    <state width=\"2518\" height=\"384\" key=\"GridCell.Tab.0.bottom/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357\" timestamp=\"1621242097433\" />\n    <state width=\"2518\" height=\"384\" key=\"GridCell.Tab.0.center\" timestamp=\"1621242097432\">\n      <screen x=\"0\" y=\"25\" width=\"2560\" height=\"1357\" />\n    </state>\n    <state width=\"2518\" height=\"384\" key=\"GridCell.Tab.0.center/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357\" timestamp=\"1621242097432\" />\n    <state width=\"2518\" height=\"384\" key=\"GridCell.Tab.0.left\" timestamp=\"1621242097432\">\n      <screen x=\"0\" y=\"25\" width=\"2560\" height=\"1357\" />\n    </state>\n    <state width=\"2518\" height=\"384\" key=\"GridCell.Tab.0.left/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357\" timestamp=\"1621242097432\" />\n    <state width=\"2518\" height=\"384\" key=\"GridCell.Tab.0.right\" timestamp=\"1621242097432\">\n      <screen x=\"0\" y=\"25\" width=\"2560\" height=\"1357\" />\n    </state>\n    <state width=\"2518\" height=\"384\" key=\"GridCell.Tab.0.right/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357\" timestamp=\"1621242097432\" />\n    <state x=\"880\" y=\"428\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1621242042544\">\n      <screen x=\"0\" y=\"25\" width=\"2560\" height=\"1357\" />\n    </state>\n    <state x=\"880\" y=\"428\" key=\"Vcs.Push.Dialog.v2/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357\" timestamp=\"1621242042544\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 71b99248ee340a2038055483d6653c878855fef2)
++++ .idea/workspace.xml	(date 1621992643567)
+@@ -14,8 +14,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="out 폴더 제거">
+-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54___Default_Changelist_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54_오전_[Default_Changelist]/shelved.patch" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -43,13 +45,7 @@
+               <path>
+                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
+-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+-              </path>
+-              <path>
+-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+-                <item name="avocado-commons" type="f1a62948:ProjectNode" />
+-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+-                <item name="build" type="c8890929:TasksNode$1" />
++                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+               </path>
+             </expand>
+             <select />
+@@ -109,19 +105,6 @@
+     </key>
+   </component>
+   <component name="RunManager" selected="Gradle.avocado-commons [build]">
+-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+-      <option name="arquillianRunConfiguration">
+-        <value>
+-          <option name="containerStateName" value="" />
+-        </value>
+-      </option>
+-      <option name="TEST_OBJECT" value="CLASS" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <configuration name="avocado-commons [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+@@ -178,6 +161,7 @@
+       <workItem from="1620712628898" duration="15000" />
+       <workItem from="1620712663115" duration="580000" />
+       <workItem from="1621227574713" duration="3990000" />
++      <workItem from="1621992642090" duration="2000" />
+     </task>
+     <task id="LOCAL-00001" summary="환경 파일...">
+       <created>1621241848126</created>

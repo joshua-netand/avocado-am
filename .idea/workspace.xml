@@ -14,8 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="out 폴더 제거">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_05_26_10_31___Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_05_26_10_31_오전_[Default_Changelist]/avocado-commons-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_05_26_10_31_오전_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54___Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54_오전_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +48,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="avocado-commons" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -59,9 +58,14 @@
     </system>
   </component>
   <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="master" />
+    <option name="BRANCH" value="develop" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/client-controller" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -109,19 +113,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.avocado-commons [build]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="avocado-commons [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -178,6 +169,8 @@
       <workItem from="1620712628898" duration="15000" />
       <workItem from="1620712663115" duration="580000" />
       <workItem from="1621227574713" duration="3990000" />
+      <workItem from="1621992642090" duration="101000" />
+      <workItem from="1621994595840" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="환경 파일...">
       <created>1621241848126</created>
@@ -239,9 +232,14 @@
       <screen x="0" y="25" width="2560" height="1357" />
     </state>
     <state width="2518" height="384" key="GridCell.Tab.0.right/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1621242097432" />
-    <state x="880" y="428" key="Vcs.Push.Dialog.v2" timestamp="1621242042544">
-      <screen x="0" y="25" width="2560" height="1357" />
+    <state x="616" y="333" key="Vcs.Push.Dialog.v2" timestamp="1621994651646">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="616" y="333" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1621994651646" />
     <state x="880" y="428" key="Vcs.Push.Dialog.v2/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1621242042544" />
+    <state x="644" y="291" key="git4idea.branch.GitSmartOperationDialog" timestamp="1621992669342">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="644" y="291" key="git4idea.branch.GitSmartOperationDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621992669342" />
   </component>
 </project>
