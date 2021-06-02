@@ -14,12 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="out 폴더 제거">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_05_26_10_31___Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_05_26_10_31_오전_[Default_Changelist]/avocado-commons-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_05_26_10_31_오전_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54___Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_05_12_11_54_오전_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +38,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="avocado-commons" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -171,6 +170,7 @@
       <workItem from="1621227574713" duration="3990000" />
       <workItem from="1621992642090" duration="101000" />
       <workItem from="1621994595840" duration="163000" />
+      <workItem from="1622427079055" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="환경 파일...">
       <created>1621241848126</created>
