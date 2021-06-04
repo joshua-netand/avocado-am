@@ -16,6 +16,9 @@ com/netand/avocado/commons/model/converter/jpa/ContextEventTypeConverter.java
 com/netand/avocado/commons/model/ExceptionResponse.java
  com.netand.avocado.commons.model.ExceptionResponse
  com.netand.avocado.commons.model.ExceptionResponse$ExceptionResponseBuilder
+com/netand/avocado/commons/model/Range.java
+ com.netand.avocado.commons.model.Range
+ com.netand.avocado.commons.model.Range$RangeBuilder
 com/netand/avocado/commons/Consts.java
  com.netand.avocado.commons.Consts
 com/netand/avocado/commons/model/ActorTag.java
@@ -32,6 +35,6 @@ com/netand/avocado/commons/model/ResultStatus.java
  com.netand.avocado.commons.model.ResultStatus
 com/netand/avocado/commons/databind/jpa/MapConverter.java
  com.netand.avocado.commons.databind.jpa.MapConverter
-com/netand/avocado/commons/model/Range.java
- com.netand.avocado.commons.model.Range
- com.netand.avocado.commons.model.Range$RangeBuilder
+com/netand/avocado/commons/model/RangedList.java
+ com.netand.avocado.commons.model.RangedList
+ com.netand.avocado.commons.model.RangedList$RangedListBuilder

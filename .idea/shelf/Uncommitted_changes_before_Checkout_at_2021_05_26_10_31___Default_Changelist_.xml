@@ -1,9 +1,0 @@
-<changelist name="Uncommitted_changes_before_Checkout_at_2021_05_26_10_31_오전_[Default_Changelist]" date="1621992670322" recycled="true" deleted="true">
-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_05_26_10_31_오전_[Default_Changelist]/shelved.patch" />
-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2021/05/26 10:31 오전 [Default Changelist]" />
-  <binary>
-    <option name="BEFORE_PATH" value="build/libs/avocado-commons-1.0.0.jar" />
-    <option name="AFTER_PATH" value="build/libs/avocado-commons-1.0.0.jar" />
-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_05_26_10_31_오전_[Default_Changelist]/avocado-commons-1.0.0.jar" />
-  </binary>
-</changelist>
