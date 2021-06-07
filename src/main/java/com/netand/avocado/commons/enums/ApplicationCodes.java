@@ -12,6 +12,7 @@ public enum ApplicationCodes {
 
 	//@formatter:off
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	AUTH            ( "auth",               "Authorization Server" ),
 	OPEN_API        ( "open-api",           "Open API Server" ),
 	IAM             ( "iam",                "Identity Access Management" ),
 	PAM             ( "pam",                "Privileged Access Management" ),
