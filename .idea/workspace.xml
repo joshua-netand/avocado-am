@@ -13,14 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="Range&#10;Ranged List&#10;gitinore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/EventLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/EventTypes.java" afterDir="false" />
+    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="이벤트 유형 인터페이스&#10;이벤트 로그 일반화">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/ContextEventTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/ContextEventTypes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/ContextEventTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/ContextEventTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,17 +115,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.avocado-commons [build]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="avocado-commons [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,7 +177,8 @@
       <workItem from="1621227574713" duration="3990000" />
       <workItem from="1621992642090" duration="101000" />
       <workItem from="1621994595840" duration="163000" />
-      <workItem from="1622776388408" duration="4264000" />
+      <workItem from="1622776388408" duration="4794000" />
+      <workItem from="1623030056824" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="환경 파일...">
       <created>1621241848126</created>
@@ -217,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622776595588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="이벤트 유형 인터페이스&#10;이벤트 로그 일반화">
+      <created>1622800477001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622800477001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +236,7 @@
     <MESSAGE value="환경 파일..." />
     <MESSAGE value="out 폴더 제거" />
     <MESSAGE value="Range&#10;Ranged List&#10;gitinore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Range&#10;Ranged List&#10;gitinore" />
+    <MESSAGE value="이벤트 유형 인터페이스&#10;이벤트 로그 일반화" />
+    <option name="LAST_COMMIT_MESSAGE" value="이벤트 유형 인터페이스&#10;이벤트 로그 일반화" />
   </component>
 </project>
