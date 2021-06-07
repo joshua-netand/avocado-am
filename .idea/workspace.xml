@@ -13,8 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="out 폴더 제거">
+    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="Range&#10;Ranged List&#10;gitinore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/EventLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/EventTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/ContextEventTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/ContextEventTypes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/ContextEventTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/ContextEventTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +48,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="avocado-commons" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
@@ -55,6 +56,14 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="develop" />
@@ -84,14 +93,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3505747" />
@@ -100,6 +108,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/entity" />
       <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model" />
       <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/databind" />
@@ -112,6 +121,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.avocado-commons [build]">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="avocado-commons [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,7 +148,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="avocado-commons [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -147,7 +169,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -170,7 +194,7 @@
       <workItem from="1621227574713" duration="3990000" />
       <workItem from="1621992642090" duration="101000" />
       <workItem from="1621994595840" duration="163000" />
-      <workItem from="1622427079055" duration="111000" />
+      <workItem from="1622776388408" duration="4264000" />
     </task>
     <task id="LOCAL-00001" summary="환경 파일...">
       <created>1621241848126</created>
@@ -186,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621242040713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Range&#10;Ranged List&#10;gitinore">
+      <created>1622776595588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622776595588</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,33 +244,7 @@
     <MESSAGE value="Revert &quot;.&quot;&#10;&#10;This reverts commit 96928fce75d8d289243522c415f1b43f5a42f11f.&#10;&#10;# Conflicts:&#10;#&#9;.gradle/6.5/executionHistory/executionHistory.bin&#10;#&#9;.gradle/6.5/executionHistory/executionHistory.lock&#10;#&#9;.gradle/6.5/fileHashes/fileHashes.bin&#10;#&#9;.gradle/6.5/fileHashes/fileHashes.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="환경 파일..." />
     <MESSAGE value="out 폴더 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="out 폴더 제거" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="2518" height="384" key="GridCell.Tab.0.bottom" timestamp="1621242097433">
-      <screen x="0" y="25" width="2560" height="1357" />
-    </state>
-    <state width="2518" height="384" key="GridCell.Tab.0.bottom/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1621242097433" />
-    <state width="2518" height="384" key="GridCell.Tab.0.center" timestamp="1621242097432">
-      <screen x="0" y="25" width="2560" height="1357" />
-    </state>
-    <state width="2518" height="384" key="GridCell.Tab.0.center/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1621242097432" />
-    <state width="2518" height="384" key="GridCell.Tab.0.left" timestamp="1621242097432">
-      <screen x="0" y="25" width="2560" height="1357" />
-    </state>
-    <state width="2518" height="384" key="GridCell.Tab.0.left/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1621242097432" />
-    <state width="2518" height="384" key="GridCell.Tab.0.right" timestamp="1621242097432">
-      <screen x="0" y="25" width="2560" height="1357" />
-    </state>
-    <state width="2518" height="384" key="GridCell.Tab.0.right/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1621242097432" />
-    <state x="616" y="333" key="Vcs.Push.Dialog.v2" timestamp="1621994651646">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="616" y="333" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1621994651646" />
-    <state x="880" y="428" key="Vcs.Push.Dialog.v2/0.25.2560.1357/2560.-21.1792.1095@0.25.2560.1357" timestamp="1621242042544" />
-    <state x="644" y="291" key="git4idea.branch.GitSmartOperationDialog" timestamp="1621992669342">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="644" y="291" key="git4idea.branch.GitSmartOperationDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621992669342" />
+    <MESSAGE value="Range&#10;Ranged List&#10;gitinore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Range&#10;Ranged List&#10;gitinore" />
   </component>
 </project>

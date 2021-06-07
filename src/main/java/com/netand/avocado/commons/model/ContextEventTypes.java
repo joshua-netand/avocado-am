@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @Getter
-public enum ContextEventTypes {
+public enum ContextEventTypes implements EventTypes {
 
 	//@formatter:off
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

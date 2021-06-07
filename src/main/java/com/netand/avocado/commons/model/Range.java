@@ -1,5 +1,6 @@
 package com.netand.avocado.commons.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
@@ -11,6 +12,8 @@ import java.text.ParseException;
 @ToString
 public class Range {
 
+	private static final String DEFAULT_UNIT = "elements";
+
 	private final String unit;
 	private final long from;
 	private final long to;
@@ -18,21 +21,18 @@ public class Range {
 	@Builder
 	public Range( String unit, long from, long to ) {
 
-		if ( StringUtils.isBlank( unit ) ) {
-
-			throw new IllegalArgumentException( "The unit is blank." );
-		}
-
-		this.unit = unit;
+		this.unit = StringUtils.isBlank( unit ) ? DEFAULT_UNIT : unit;
 		this.from = from;
 		this.to = to;
 	}
 
+	@JsonIgnore
 	public long getOffset() {
 
 		return from;
 	}
 
+	@JsonIgnore
 	public long getLimit() {
 
 		return to - from + 1;
