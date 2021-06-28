@@ -1,6 +1,7 @@
 package com.netand.avocado.commons.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
@@ -8,6 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.text.ParseException;
 
+@JsonInclude( JsonInclude.Include.NON_EMPTY )
 @Getter
 @ToString
 public class Range {
