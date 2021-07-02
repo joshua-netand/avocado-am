@@ -3,7 +3,9 @@ package com.netand.avocado.commons.model.converter.jpa;
 import com.netand.avocado.commons.model.ContextEventTypes;
 
 import javax.persistence.AttributeConverter;
+import javax.persistence.Converter;
 
+@Converter
 public class ContextEventTypeConverter implements AttributeConverter< ContextEventTypes, Integer > {
 
 	@Override

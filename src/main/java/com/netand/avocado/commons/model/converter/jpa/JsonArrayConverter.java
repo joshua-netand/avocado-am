@@ -8,9 +8,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
 import javax.persistence.AttributeConverter;
+import javax.persistence.Converter;
 import java.util.Arrays;
 import java.util.List;
 
+@Converter
 public class JsonArrayConverter implements AttributeConverter< List< String >, String > {
 
 	private static final ObjectMapper objectMapper = Jackson2ObjectMapperBuilder.json()
