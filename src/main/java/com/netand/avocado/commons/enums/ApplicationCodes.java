@@ -19,6 +19,7 @@ public enum ApplicationCodes {
 	ADMIN           ( "admin",              "Administrator Server" ),
 	BASTION         ( "bastion",            "Bastion" ),
 	API_GW          ( "api-gw",             "API Gateway" ),
+	RRM             ( "rrm",                "Remote Resource Management" ),
 	;
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
