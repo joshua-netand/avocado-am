@@ -1,8 +1,5 @@
 package com.netand.avocado.commons.model;
 
-public interface EventTypes {
+public interface EventTypes extends CodeEnums< Integer > {
 
-	int getCode();
-
-	String name();
 }

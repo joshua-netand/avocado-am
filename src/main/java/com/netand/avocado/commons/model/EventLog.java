@@ -1,33 +1,28 @@
 package com.netand.avocado.commons.model;
 
-import com.fasterxml.jackson.annotation.JsonGetter;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.netand.avocado.commons.model.converter.json.EventTypeSerializer;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import com.netand.avocado.commons.model.converter.json.IntegerCodeSerializer;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
 import java.time.ZonedDateTime;
-import java.util.Map;
 
-@Getter
-@NoArgsConstructor
+@Data
+@RequiredArgsConstructor
 @ToString
-@JsonInclude( JsonInclude.Include.NON_EMPTY )
-public class EventLog< T extends EventTypes > {
+public abstract class EventLog< T extends EventTypes > {
 
-	private long eventId;
+	private Long eventId;
 
 	private ZonedDateTime eventTime;
 
-	@JsonSerialize( using = EventTypeSerializer.class )
+	@JsonSerialize( using = IntegerCodeSerializer.class )
 	private T eventType;
 
 	private ActorTag actorTag;
 
-	public EventLog( long eventId, ZonedDateTime eventTime, T eventType, ActorTag actorTag ) {
+	public EventLog( Long eventId, ZonedDateTime eventTime, T eventType, ActorTag actorTag ) {
 
 		this.eventId = eventId;
 		this.eventTime = eventTime;

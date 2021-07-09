@@ -29,8 +29,8 @@ public enum ContextEventTypes implements EventTypes {
 	//@formatter:on
 	;
 
-	private static final Map<Integer, ContextEventTypes> INDEX_FOR_CODE = new LinkedHashMap<>();
-	private final int code;
+	private static final Map< Integer, ContextEventTypes > INDEX_FOR_CODE = new LinkedHashMap<>();
+	private final Integer code;
 
 	static {
 
