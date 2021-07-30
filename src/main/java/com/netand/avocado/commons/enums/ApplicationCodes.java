@@ -20,6 +20,9 @@ public enum ApplicationCodes {
 	BASTION         ( "bastion",            "Bastion" ),
 	API_GW          ( "api-gw",             "API Gateway" ),
 	RRM             ( "rrm",                "Remote Resource Management" ),
+
+	CONSOLE_UI      ( "console-ui",         "Console UI" ),
+	ADMIN_UI        ( "admin-ui",           "Admin UI" ),
 	;
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36,8 +39,8 @@ public enum ApplicationCodes {
 		);
 	}
 
-	private String code;
-	private String description;
+	private final String code;
+	private final String description;
 
 	ApplicationCodes( String code, String description ) {
 

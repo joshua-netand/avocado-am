@@ -14,10 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/RangedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/converter/jpa/JsonMapConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/converter/json/ApplicationCodeSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/enums/ApplicationCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/enums/ApplicationCodes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/enums/ApplicationCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/enums/ApplicationCodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,17 +125,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.avocado-commons [build]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="avocado-commons [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -198,6 +190,7 @@
       <workItem from="1622776388408" duration="4794000" />
       <workItem from="1623030056824" duration="620000" />
       <workItem from="1626060045518" duration="260000" />
+      <workItem from="1627616186802" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="환경 파일...">
       <created>1621241848126</created>
