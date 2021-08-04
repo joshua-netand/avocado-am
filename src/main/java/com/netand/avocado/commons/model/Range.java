@@ -23,6 +23,16 @@ public class Range {
 	@Builder
 	public Range( String unit, long from, long to ) {
 
+		if ( from < 0 || to < 0 ) {
+
+			throw new IllegalArgumentException( "The from or to is negative." );
+		}
+
+		if ( from > to ) {
+
+			throw new IllegalArgumentException( "The from value is greater than to value." );
+		}
+
 		this.unit = StringUtils.isBlank( unit ) ? DEFAULT_UNIT : unit;
 		this.from = from;
 		this.to = to;
@@ -36,6 +46,12 @@ public class Range {
 
 	@JsonIgnore
 	public long getLimit() {
+
+		return to - from + 1;
+	}
+
+	@JsonIgnore
+	public long getSize() {
 
 		return to - from + 1;
 	}
