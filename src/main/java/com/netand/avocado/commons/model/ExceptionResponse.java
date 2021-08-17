@@ -12,26 +12,24 @@ import java.util.Map;
 @ToString
 public class ExceptionResponse {
 
-	private final String prefix;
-	private final int serialNumber;
-	private final String format;
+	private final String code;
+	private final String messageFormat;
 	private final String message;
-	private final ResultStatus resultStatus;
+	private final ResultStatus status;
 	private final Map< String, Object > attributes;
 
 	@Builder
 	public ExceptionResponse( String prefix,
 	                          int serialNumber,
-	                          String format,
+	                          String messageFormat,
 	                          String message,
-	                          ResultStatus resultStatus,
+	                          ResultStatus status,
 	                          @Singular Map< String, Object > attributes ) {
 
-		this.prefix = prefix;
-		this.serialNumber = serialNumber;
-		this.format = format;
+		this.code = String.format( "%s::%s", prefix, serialNumber );
+		this.messageFormat = messageFormat;
 		this.message = message;
-		this.resultStatus = resultStatus;
+		this.status = status;
 		this.attributes = attributes;
 	}
 }
