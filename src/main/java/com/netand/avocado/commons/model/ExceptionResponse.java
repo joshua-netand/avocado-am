@@ -1,16 +1,25 @@
 package com.netand.avocado.commons.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Singular;
 import lombok.ToString;
 
-import javax.xml.transform.Result;
 import java.util.Map;
 
 @Getter
 @ToString
+@JsonInclude( JsonInclude.Include.NON_EMPTY )
+@JsonPropertyOrder( {
+		"code",
+		"format",
+		"message",
+		"status",
+		"attributes"
+} )
 public class ExceptionResponse {
 
 	@JsonIgnore
