@@ -13,7 +13,7 @@ import java.util.Map;
 public class ExceptionResponse {
 
 	private final String code;
-	private final String messageFormat;
+	private final String format;
 	private final String message;
 	private final ResultStatus status;
 	private final Map< String, Object > attributes;
@@ -21,13 +21,13 @@ public class ExceptionResponse {
 	@Builder
 	public ExceptionResponse( String prefix,
 	                          int serialNumber,
-	                          String messageFormat,
+	                          String format,
 	                          String message,
 	                          ResultStatus status,
 	                          @Singular Map< String, Object > attributes ) {
 
 		this.code = String.format( "%s::%s", prefix, serialNumber );
-		this.messageFormat = messageFormat;
+		this.format = format;
 		this.message = message;
 		this.status = status;
 		this.attributes = attributes;
