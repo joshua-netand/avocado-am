@@ -1,5 +1,6 @@
 package com.netand.avocado.commons.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Singular;
@@ -12,7 +13,10 @@ import java.util.Map;
 @ToString
 public class ExceptionResponse {
 
-	private final String code;
+	@JsonIgnore
+	private final String prefix;
+	@JsonIgnore
+	private final int serialNumber;
 	private final String format;
 	private final String message;
 	private final ResultStatus status;
@@ -26,10 +30,16 @@ public class ExceptionResponse {
 	                          ResultStatus status,
 	                          @Singular Map< String, Object > attributes ) {
 
-		this.code = String.format( "%s::%s", prefix, serialNumber );
+		this.prefix = prefix;
+		this.serialNumber = serialNumber;
 		this.format = format;
 		this.message = message;
 		this.status = status;
 		this.attributes = attributes;
+	}
+
+	public String getCode() {
+
+		return String.format( "%s::%s", prefix, serialNumber );
 	}
 }
