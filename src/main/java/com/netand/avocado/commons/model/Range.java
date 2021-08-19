@@ -30,7 +30,7 @@ public class Range {
 
 		if ( from > to ) {
 
-			throw new IllegalArgumentException( "The from value is greater than to value." );
+			throw new IllegalArgumentException( String.format( "The from value is greater than to value. (from=%s, to=%s)", from, to ) );
 		}
 
 		this.unit = StringUtils.isBlank( unit ) ? DEFAULT_UNIT : unit;
