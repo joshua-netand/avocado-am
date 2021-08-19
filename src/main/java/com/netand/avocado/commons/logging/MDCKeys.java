@@ -14,6 +14,7 @@ public interface MDCKeys {
     String Request_ClientName               = "request.client-name";
     String Request_UserId                   = "request.user-id";
     String Request_UserUid                  = "request.user-uid";
+    String Request_CompanyId                = "request.company-id";
 
     String Response_Status                  = "response.remote-status";
 
