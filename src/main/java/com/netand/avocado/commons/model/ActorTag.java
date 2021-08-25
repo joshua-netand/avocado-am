@@ -1,5 +1,6 @@
 package com.netand.avocado.commons.model;
 
+import com.netand.avocado.commons.enums.ApplicationCodes;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
@@ -8,7 +9,7 @@ import lombok.ToString;
 @ToString
 public class ActorTag {
 
-	private final String applicationId;
+	private final ApplicationCodes applicationCode;
 
 	private final String clientId;
 
@@ -17,9 +18,9 @@ public class ActorTag {
 	private final String userUid;
 
 	@Builder
-	public ActorTag( String applicationId, String clientId, String requestId, String userUid ) {
+	public ActorTag( ApplicationCodes applicationCode, String clientId, String requestId, String userUid ) {
 
-		this.applicationId = applicationId;
+		this.applicationCode = applicationCode;
 		this.clientId = clientId;
 		this.requestId = requestId;
 		this.userUid = userUid;
