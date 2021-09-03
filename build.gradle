@@ -12,6 +12,11 @@ repositories {
 dependencies {
 
     implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    // https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3
+    implementation 'com.amazonaws:aws-java-sdk-s3:1.12.57'
+
 
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.3'
     implementation 'org.apache.commons:commons-lang3:3.11'

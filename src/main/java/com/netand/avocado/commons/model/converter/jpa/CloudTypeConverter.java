@@ -1,6 +1,6 @@
 package com.netand.avocado.commons.model.converter.jpa;
 
-import com.netand.avocado.commons.model.CloudTypes;
+import com.netand.avocado.commons.model.enums.CloudTypes;
 
 import javax.persistence.AttributeConverter;
 

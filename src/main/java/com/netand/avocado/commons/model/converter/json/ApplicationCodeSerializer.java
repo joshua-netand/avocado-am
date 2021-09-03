@@ -3,7 +3,7 @@ package com.netand.avocado.commons.model.converter.json;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
-import com.netand.avocado.commons.enums.ApplicationCodes;
+import com.netand.avocado.commons.model.enums.ApplicationCodes;
 
 import java.io.IOException;
 

@@ -1,6 +1,10 @@
 package com.netand.avocado.commons.model;
 
-import com.netand.avocado.commons.enums.ApplicationCodes;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.netand.avocado.commons.model.converter.json.ApplicationCodeDeserializer;
+import com.netand.avocado.commons.model.converter.json.ApplicationCodeSerializer;
+import com.netand.avocado.commons.model.enums.ApplicationCodes;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
@@ -9,6 +13,8 @@ import lombok.ToString;
 @ToString
 public class ActorTag {
 
+	@JsonDeserialize( using = ApplicationCodeDeserializer.class )
+	@JsonSerialize( using = ApplicationCodeSerializer.class )
 	private final ApplicationCodes applicationCode;
 
 	private final String clientId;

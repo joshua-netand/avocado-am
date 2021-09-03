@@ -2,6 +2,7 @@ package com.netand.avocado.commons.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.netand.avocado.commons.model.converter.json.IntegerCodeSerializer;
+import com.netand.avocado.commons.model.enums.EventTypes;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;

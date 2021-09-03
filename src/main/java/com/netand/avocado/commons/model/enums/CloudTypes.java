@@ -1,4 +1,4 @@
-package com.netand.avocado.commons.model;
+package com.netand.avocado.commons.model.enums;
 
 import lombok.Getter;
 
