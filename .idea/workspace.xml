@@ -13,7 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="" />
+    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/logging/MDCKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/logging/MDCKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/ExceptionResponse$ExceptionResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/ExceptionResponse$ExceptionResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/ExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/ExceptionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/netand/avocado/commons/model/Range.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/avocado-commons-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +44,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="avocado-commons" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -117,13 +130,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.avocado-commons [build]">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,6 +210,7 @@
       <workItem from="1626060045518" duration="260000" />
       <workItem from="1627616186802" duration="38000" />
       <workItem from="1629356647216" duration="78000" />
+      <workItem from="1631612068193" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="환경 파일...">
       <created>1621241848126</created>
