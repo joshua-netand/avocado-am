@@ -21,6 +21,14 @@ public interface MQPaths {
 		}
 	}
 
+	interface OpenApiManagement {
+
+		String Prefix           = "openAPi";
+
+		String Queue            = Prefix + "_response_queue";
+		String RoutingKey       = Prefix + ".response.*";
+	}
+
 	interface RemoteResourceManagement {
 
 		String Prefix               = "rrm";
@@ -37,11 +45,11 @@ public interface MQPaths {
 			String RoutingKey       = Prefix + ".response.*";
 		}
 
-		interface ResponseToOpenApi {
-
-			String Queue            = Prefix + "_response_to_openApi_queue";
-			String RoutingKey       = Prefix + ".response.openApi.*";
-		}
+//		interface ResponseToOpenApi {
+//
+//			String Queue            = Prefix + "_response_to_openApi_queue";
+//			String RoutingKey       = Prefix + ".response.openApi.*";
+//		}
 	}
 
 	interface CloudApiGateWay {
