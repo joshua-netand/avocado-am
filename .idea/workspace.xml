@@ -13,9 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="이벤트 유형 인터페이스&#10;이벤트 로그 일반화">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="이벤트 유형 인터페이스&#10;이벤트 로그 일반화" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +36,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="avocado-commons" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
