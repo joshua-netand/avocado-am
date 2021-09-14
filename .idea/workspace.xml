@@ -13,7 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="ExceptionResponse 수정&#10; 1) 프로퍼티 명 수정" />
+    <list default="true" id="188efdf4-b71b-42c4-b8bb-37e93c05a571" name="Default Changelist" comment="이벤트 유형 인터페이스&#10;이벤트 로그 일반화">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,11 +39,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="avocado-commons" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="avocado-commons" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -60,7 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/update-exception-response" />
+        <entry key="$PROJECT_DIR$" value="feature/sequence" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,18 +105,17 @@
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.netand.avocado.commons.mq" />
-      <recent name="com.netand.avocado.commons.logging" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model/entity" />
       <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model" />
       <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/databind" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/netand/avocado/commons/model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.netand.avocado.commons.logging" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.avocado-commons [build]">
@@ -202,14 +198,8 @@
       <workItem from="1623030056824" duration="620000" />
       <workItem from="1626060045518" duration="260000" />
       <workItem from="1627616186802" duration="38000" />
-      <workItem from="1628670348112" duration="107000" />
-      <workItem from="1629184367092" duration="120000" />
-      <workItem from="1629185785237" duration="255000" />
-      <workItem from="1629186675254" duration="694000" />
-      <workItem from="1629272375314" duration="171000" />
-      <workItem from="1629275232870" duration="109000" />
-      <workItem from="1629347866625" duration="528000" />
-      <workItem from="1629437527689" duration="1540000" />
+      <workItem from="1629356647216" duration="78000" />
+      <workItem from="1629450387753" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="환경 파일...">
       <created>1621241848126</created>
@@ -246,63 +236,7 @@
       <option name="project" value="LOCAL" />
       <updated>1626060144226</updated>
     </task>
-    <task id="LOCAL-00006" summary="MQPaths 추가">
-      <created>1628650090289</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1628650090289</updated>
-    </task>
-    <task id="LOCAL-00007" summary="MQ용 MessageHeader 추가">
-      <created>1628670418606</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1628670418606</updated>
-    </task>
-    <task id="LOCAL-00008" summary="ExceptionResponse에 ToString 어노테이션 추가">
-      <created>1629184431992</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1629184431993</updated>
-    </task>
-    <task id="LOCAL-00009" summary="ExceptionResponse 수정&#10; 1) ResultStatus 추가">
-      <created>1629185976773</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1629185976773</updated>
-    </task>
-    <task id="LOCAL-00010" summary="ExceptionResponse 수정&#10; 1) 프로퍼티 명 수정">
-      <created>1629186876497</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1629186876497</updated>
-    </task>
-    <task id="LOCAL-00011" summary="ExceptionResponse 수정&#10; 1) 프로퍼티 명 수정">
-      <created>1629186963207</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1629186963207</updated>
-    </task>
-    <task id="LOCAL-00012" summary="ExceptionResponse 수정&#10; 1) 프로퍼티 명 수정">
-      <created>1629187145193</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1629187145193</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ExceptionResponse 수정&#10; 1) 프로퍼티 명 수정">
-      <created>1629187380540</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1629187380540</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,41 +265,6 @@
     <MESSAGE value="out 폴더 제거" />
     <MESSAGE value="Range&#10;Ranged List&#10;gitinore" />
     <MESSAGE value="이벤트 유형 인터페이스&#10;이벤트 로그 일반화" />
-    <MESSAGE value="MQPaths 추가" />
-    <MESSAGE value="MQ용 MessageHeader 추가" />
-    <MESSAGE value="ExceptionResponse에 ToString 어노테이션 추가" />
-    <MESSAGE value="ExceptionResponse 수정&#10; 1) ResultStatus 추가" />
-    <MESSAGE value="ExceptionResponse 수정&#10; 1) 프로퍼티 명 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExceptionResponse 수정&#10; 1) 프로퍼티 명 수정" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="180" y="112" key="DiffContextDialog" timestamp="1629184460339">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="180" y="112" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1629184460339" />
-    <state width="1750" height="305" key="GridCell.Tab.0.bottom" timestamp="1629186040406">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="305" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1629186040406" />
-    <state width="1750" height="305" key="GridCell.Tab.0.center" timestamp="1629186040405">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="305" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1629186040405" />
-    <state width="1750" height="305" key="GridCell.Tab.0.left" timestamp="1629186040405">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="305" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1629186040405" />
-    <state width="1750" height="305" key="GridCell.Tab.0.right" timestamp="1629186040406">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="305" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1629186040406" />
-    <state x="622" y="281" key="RollbackChangesDialog" timestamp="1628649643620">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="622" y="281" key="RollbackChangesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1628649643620" />
-    <state x="496" y="298" key="Vcs.Push.Dialog.v2" timestamp="1629187382740">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="496" y="298" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1629187382740" />
+    <option name="LAST_COMMIT_MESSAGE" value="이벤트 유형 인터페이스&#10;이벤트 로그 일반화" />
   </component>
 </project>

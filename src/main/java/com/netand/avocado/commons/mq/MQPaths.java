@@ -21,6 +21,14 @@ public interface MQPaths {
 		}
 	}
 
+	interface AuthorizationManagement {
+
+		String Prefix           = "auth";
+
+		String Queue            = Prefix + "_response_queue";
+		String RoutingKey       = Prefix + ".response.*";
+	}
+
 	interface OpenApiManagement {
 
 		String Prefix           = "openAPi";
