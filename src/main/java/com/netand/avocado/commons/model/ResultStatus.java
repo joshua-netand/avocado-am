@@ -1,5 +1,7 @@
 package com.netand.avocado.commons.model;
 
+import com.netand.avocado.commons.model.enums.ResultTypes;
+
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,7 +1,7 @@
 package com.netand.avocado.commons.exception;
 
 import com.netand.avocado.commons.model.ResultStatus;
-import com.netand.avocado.commons.model.ResultTypes;
+import com.netand.avocado.commons.model.enums.ResultTypes;
 import lombok.Getter;
 import lombok.ToString;
 

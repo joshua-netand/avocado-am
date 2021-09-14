@@ -1,4 +1,4 @@
-package com.netand.avocado.commons.enums;
+package com.netand.avocado.commons.model.enums;
 
 import lombok.Getter;
 
@@ -12,17 +12,18 @@ public enum ApplicationCodes {
 
 	//@formatter:off
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	AUTH            ( "auth",               "Authorization Server" ),
-	OPEN_API        ( "open-api",           "Open API Server" ),
-	IAM             ( "iam",                "Identity Access Management" ),
-	PAM             ( "pam",                "Privileged Access Management" ),
-	ADMIN           ( "admin",              "Administrator Server" ),
-	BASTION         ( "bastion",            "Bastion" ),
-	API_GW          ( "api-gw",             "API Gateway" ),
-	RRM             ( "rrm",                "Remote Resource Management" ),
+	AUTH                    ( "auth",                   "Authorization Server" ),
+	OPEN_API                ( "open-api",               "Open API Server" ),
+	IAM                     ( "iam",                    "Identity Access Management" ),
+	PAM                     ( "pam",                    "Privileged Access Management" ),
+	ADMIN                   ( "admin",                  "Administrator Server" ),
+	BASTION                 ( "bastion",                "Bastion" ),
+	API_GW                  ( "api-gw",                 "API Gateway" ),
+	RRM                     ( "rrm",                    "Remote Resource Management" ),
+	PAM_CONNECTOR_MANAGER   ( "pam-conn-manager",       "PAM Connector Manager" ),
 
-	CONSOLE_UI      ( "console-ui",         "Console UI" ),
-	ADMIN_UI        ( "admin-ui",           "Admin UI" ),
+	CONSOLE_UI              ( "console-ui",             "Console UI" ),
+	ADMIN_UI                ( "admin-ui",               "Admin UI" ),
 	;
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -52,4 +53,4 @@ public enum ApplicationCodes {
 
 		return Optional.ofNullable( INDEX_FOR_CODE.get( code ) );
 	}
-}
+	}
