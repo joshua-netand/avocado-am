@@ -7,7 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;
 
-@Getter
 public enum AuditLogStatus implements CodeEnums< Integer > {
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -45,5 +44,11 @@ public enum AuditLogStatus implements CodeEnums< Integer > {
 	public static Optional< AuditLogStatus > findByCode( Integer code ) {
 
 		return Optional.ofNullable( INDEX_FOR_CODE.get( code ) );
+	}
+
+	@Override
+	public Integer getCode() {
+
+		return this.code;
 	}
 }
