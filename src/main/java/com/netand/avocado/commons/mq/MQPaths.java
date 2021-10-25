@@ -46,6 +46,12 @@ public interface MQPaths {
 			String Queue            = Prefix + "_resource_queue";
 			String RoutingKey       = Prefix + ".resource.*";
 		}
+
+		interface Role {
+
+			String Queue            = Prefix + "_role_queue";
+			String RoutingKey       = Prefix + ".role.*";
+		}
 	}
 
 	interface RemoteResourceManagement {
