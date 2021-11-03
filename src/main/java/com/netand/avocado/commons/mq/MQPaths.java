@@ -1,6 +1,5 @@
 package com.netand.avocado.commons.mq;
 
-@Deprecated
 public interface MQPaths {
 
 	interface IdentityAndAccessManagement {
