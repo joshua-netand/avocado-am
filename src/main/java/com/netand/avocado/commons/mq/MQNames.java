@@ -36,7 +36,10 @@ public interface MQNames {
 		interface Request {
 
 			String Connector = "cloud_api_gw-request-connector";
+			String ConnectorRoutingKey = "cloud-api-gw.connector";
+
 			String Resource = "cloud_api_gw-request-resource";
+			String ResourceRoutingKey = "cloud-api-gw.resource";
 		}
 	}
 }
