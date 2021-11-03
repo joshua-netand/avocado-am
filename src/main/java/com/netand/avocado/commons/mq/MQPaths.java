@@ -1,5 +1,6 @@
 package com.netand.avocado.commons.mq;
 
+@Deprecated
 public interface MQPaths {
 
 	String AVOCADO_EXCHANGE = "avocado_exchange";
