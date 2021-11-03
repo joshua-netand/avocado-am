@@ -3,89 +3,54 @@ package com.netand.avocado.commons.mq;
 @Deprecated
 public interface MQPaths {
 
-	String AVOCADO_EXCHANGE = "avocado_exchange";
-
 	interface IdentityAndAccessManagement {
 
-		String Prefix               = "iam";
+		interface Queues {
 
-		interface Verify {
+			interface Request {
 
-			String Queue            = Prefix + "_verify_queue";
-			String RoutingKey       = Prefix + ".verify.*";
+				String Auth = "iam-request-auth";
+				String Resource = "iam-request-resource";
+			}
+
+			interface Response {
+
+				String Auth = "iam-response-to_auth";
+				String OpenApi = "iam-response-to_open_api";
+			}
 		}
-
-		interface Resource {
-
-			String Queue            = Prefix + "_resource_queue";
-			String RoutingKey       = Prefix + ".resource.*";              // ex) iam.resource.client, iam.resource.user, iam.resource.policy
-		}
-	}
-
-	interface AuthorizationManagement {
-
-		String Prefix           = "auth";
-
-		String Queue            = Prefix + "_response_queue";
-		String RoutingKey       = Prefix + ".response.*";
-	}
-
-	interface OpenApiManagement {
-
-		String Prefix           = "openAPi";
-
-		String Queue            = Prefix + "_response_queue";
-		String RoutingKey       = Prefix + ".response.*";
 	}
 
 	interface PrivilegedAccessManagement {
 
-		String Prefix               = "pam";
+		interface Queues {
 
-		interface Resource {
-
-			String Queue            = Prefix + "_resource_queue";
-			String RoutingKey       = Prefix + ".resource.*";
-		}
-
-		interface Role {
-
-			String Queue            = Prefix + "_role_queue";
-			String RoutingKey       = Prefix + ".role.*";
+			String Request = "pam-request";
+			String Response = "pam-response";
 		}
 	}
 
 	interface RemoteResourceManagement {
 
-		String Prefix               = "rrm";
+		interface Queues {
 
-		interface Resource {
-
-			String Queue            = Prefix + "_resource_queue";
-			String RoutingKey       = Prefix + ".resource.*";
-		}
-
-		interface Response {
-
-			String Queue            = Prefix + "_response_queue";
-			String RoutingKey       = Prefix + ".response.*";
+			String Request = "rrm-request";
+			String Response = "rrm-rpc-response";
 		}
 	}
 
-	interface CloudApiGateWay {
+	interface CloudAPIGateWay {
 
-		String Prefix               = "cloud";
+		interface Exchange {
 
-		interface Connector {
+			String name = "cloud-api-gw-exchange";
 
-			String Queue            = Prefix + "_connector_queue";
-			String RoutingKey       = Prefix + ".connector.*";
-		}
+			interface RoutingKey {
 
-		interface Resource {
-
-			String Queue            = Prefix + "_resource_queue";
-			String RoutingKey       = Prefix + ".resource.*";
+				String Connector = "cloud-api-gw.connector";
+				String Resource = "cloud-api-gw.resource";
+			}
 		}
 	}
+
 }
