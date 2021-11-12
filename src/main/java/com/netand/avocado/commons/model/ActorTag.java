@@ -31,4 +31,5 @@ public class ActorTag {
 		this.requestId = requestId;
 		this.userUid = userUid;
 	}
+
 }
