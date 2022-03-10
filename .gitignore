@@ -39,3 +39,6 @@ atlassian-ide-plugin.xml
 application.pid
 
 **/**/generated/
+/.
+/build/generated/sources/annotationProcessor/java/main/
+/src/main/
