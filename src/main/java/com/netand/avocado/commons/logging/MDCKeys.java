@@ -1,5 +1,8 @@
 package com.netand.avocado.commons.logging;
 
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+
 public interface MDCKeys {
 
 	//@formatter:off
@@ -10,6 +13,8 @@ public interface MDCKeys {
     String Request_ClientId                 = "request.client-id";
     String Request_ClientName               = "request.client-name";
     String Request_UserId                   = "request.user-id";
+    String Request_UserUid                  = "request.user-uid";
+    String Request_CompanyId                = "request.company-id";
 
     String Response_Status                  = "response.remote-status";
 

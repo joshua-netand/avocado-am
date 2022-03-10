@@ -1,4 +1,4 @@
-package com.netand.avocado.commons.model;
+package com.netand.avocado.commons.model.enums;
 
 import lombok.Getter;
 
@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @Getter
-public enum ContextEventTypes {
+public enum ContextEventTypes implements EventTypes {
 
 	//@formatter:off
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -29,8 +29,8 @@ public enum ContextEventTypes {
 	//@formatter:on
 	;
 
-	private static final Map<Integer, ContextEventTypes> INDEX_FOR_CODE = new LinkedHashMap<>();
-	private final int code;
+	private static final Map< Integer, ContextEventTypes > INDEX_FOR_CODE = new LinkedHashMap<>();
+	private final Integer code;
 
 	static {
 
